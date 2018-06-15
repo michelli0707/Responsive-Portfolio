@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./Assets/CSS/style.css">
+
+<style>
+
+@media screen and (max-width: 980px){
+    body {font-family: Arial, Helvetica, sans-serif;}
+                    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+     }
+                    
+    input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+     }
+                    
+    input[type=submit]:hover {
+        background-color: #4aaaa5;
+     }
+                    
+    .content {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+     }
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 640px){
+}
+
+ </style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="name">Michelli Vieira</div>
+
+<div id="about" class="tabcontent">
+</div>
+ <div id="portfolio" class="tabcontent">
+</div>
+<div id="contact" class="tabcontent">    
+</div>
+
+    <div class="button">
+        <button class="tablink" onclick="location.href='index.html' " style='float: none'>About</button>
+        <button class="tablink" onclick="location.href='portfolio.html' " style='float: none'>Portfolio</button>
+        <button class="tablink" onclick="location.href='contact.html' " style='float: none'>Contact</button> 
+    </div>
+
+</header>
+ 
+<div class="content">
+    
+     <div class="main">
+        <h1>Contact</h1>
+        <hr>
+        <form action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..">
+       
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email address..">
+       
+            <label for="message">Message</label>
+            <textarea type="text" id="message" name="message" placeholder="Your email address.." style="height:200px"></textarea>
+       
+            <input type="submit" value="Submit">
+        </form>
+     </div>
+ </div>
+        
+<footer>
+        &copy; Copyright 2018 Michelli Chaves Vieira
+    </footer>
+
+</body>
+</html>
